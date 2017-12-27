@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="cl.ucn.disc.dam.discnews.view.MainActivity">
+    tools:context="cl.ucn.disc.dam.discnews.activities.MainActivity">
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:orientation="vertical"
@@ -15,16 +15,10 @@
 
         <ListView android:id="@android:id/list"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="0dp"
             android:background="#00FF00"
             android:layout_weight="1"
             android:drawSelectorOnTop="false"/>
 
-        <TextView
-            android:id="@android:id/text"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="#FF0000"
-            android:text="No data" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
